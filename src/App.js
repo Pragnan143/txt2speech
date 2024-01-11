@@ -34,7 +34,7 @@ function App() {
         {" "}
         {transcript}{" "}
         <div className="btn_bar">
-          <button onClick={copytoClipboard}> Copy to ClipBoard </button>{" "}
+          <button onClick={copytoClipboard}> Copy </button>{" "}
           <button onClick={StartSpeak}> Listen </button>{" "}
           <button onClick={StopSpeak}> Stop </button>{" "}
         </div>{" "}
